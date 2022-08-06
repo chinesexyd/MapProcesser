@@ -1,0 +1,173 @@
+/**Frame**/
+QFrame#MapShower{
+    background-color:#393e46;
+}
+QFrame#MainWindow{
+    background-color:#425066;
+}
+QTabWidget{
+    background-color:#393e46;
+    border:none;
+}
+QTabBar{
+    background-color:#424c50;
+    border:none;
+    border-bottom:5px solid #f2be45;
+    color:#eacd76;
+}
+/**QDialog**/
+QDialog{
+    background-color:#393e46;
+}
+/**Label**/
+QLabel{
+    color:#fffbf0;
+}
+/**QPushButton**/
+QPushButton#A{
+    background-color:#424c50;
+    border:none;
+    border-bottom:5px solid #f2be45;
+    color:#eacd76;
+}
+QPushButton#A:checked{
+    background-color:#008080;
+    border-bottom:5px solid #fffbf0;
+    color:#fffbf0;
+}
+QPushButton{
+    background-color:#424c50;
+    border:1px solid #f2be45;
+    color:#eacd76;
+}
+QPushButton:hover{
+    border:1px solid #fffbf0;
+    color:#fffbf0;
+}
+QPushButton:checked{
+    background-color:#008080;
+    border:1px solid #fffbf0;
+    color:#fffbf0;
+}
+/**QTableView**/
+QTableView {
+    color:#FFFFFF;                                       /*表格内文字颜色*/
+    gridline-color:#212121;                              /*表格内框颜色*/
+    background-color:#393e46;               /*表格内背景色*/
+    alternate-background-color:#353242;
+    selection-color:#000000;                             /*选中区域的文字颜色*/
+    selection-background-color:#797979;        /*选中区域的背景色*/
+}
+/**QHeaderView**/
+QHeaderView{
+    background-color: #393e46;
+    color:#FFFFFF;
+}
+QHeaderView::section {
+    background-color: #393e46;
+}
+QTableView QTableCornerButton::section {
+    background-color: #393e46;/*背景色*/
+}
+/**QComboBox**/
+QComboBox {
+    border: 1px solid #797979;   /* 边框 */
+    padding: 1px 5px 1px 3px;   /* 字体填衬 */
+    color:#FFFFFF;
+    font: normal normal 15px "Microsoft YaHei";
+    background-color: #393e46;
+}
+QComboBox::drop-down {
+    border:none;
+}
+QComboBox QAbstractItemView {
+    border: none;   /* 整个下拉窗体的边框 */
+    background-color: #797979;   /* 整个下拉窗体的背景色 */
+}
+
+/*设置垂直滚动条基本样式*/
+QScrollBar:vertical{
+    width:6px;
+    background:#424c50;
+    margin:0px,0px,0px,0px;
+    padding-top:0px;
+    padding-bottom:0px;
+}
+QScrollBar::handle:vertical{
+    width:6px;
+    background:#f2be45;
+    border-radius:3px;
+}
+QScrollBar::handle:vertical:hover{
+    width:6px;
+    background:#e23e57;
+    border-radius:3px;
+}
+QScrollBar::add-line:vertical{
+    height:0px;
+}
+QScrollBar::sub-line:vertical{
+    height:0px;
+}
+/*设置垂直滚动条基本样式*/
+QScrollBar:horizontal{
+    height:6px;
+    background:#424c50;
+    margin:0px,0px,0px,0px;
+    padding-top:0px;
+    padding-bottom:0px;
+}
+QScrollBar::handle:horizontal{
+    height:6px;
+    background:#f2be45;
+    border-radius:3px;
+}
+QScrollBar::handle:horizontal:hover{
+    height:6px;
+    background:#e23e57;
+    border-radius:3px;
+}
+QScrollBar::add-line:horizontal{
+    width:0px;
+}
+QScrollBar::sub-line:horizontal{
+    width:0px;
+}
+/**QListView**/
+QListView {
+    color:#FFFFFF;                                       /*表格内文字颜色*/
+    gridline-color:#212121;                              /*表格内框颜色*/
+    background-color:#393e46;               /*表格内背景色*/
+    alternate-background-color:#353242;
+    selection-color:#000000;                             /*选中区域的文字颜色*/
+    selection-background-color:#797979;        /*选中区域的背景色*/
+}
+/**QTreeView**/
+QTreeView {
+    color:#FFFFFF;                                       /*表格内文字颜色*/
+    gridline-color:#212121;                              /*表格内框颜色*/
+    background-color:#393e46;               /*表格内背景色*/
+    alternate-background-color:#353242;
+    selection-color:#000000;                             /*选中区域的文字颜色*/
+    selection-background-color:#797979;        /*选中区域的背景色*/
+}
+/**QStatusBar**/
+QStatusBar{
+    color:#eacd76;
+}
+/**QMenu**/
+QMenu{
+    background-color:#fefdca;
+    border:2px solid #a5dee5;
+}
+QMenu::item{
+    background-color:transparent;
+    padding:2px 30px;
+    margin:0px 0px;
+}
+QMenu::item::checked{
+    background-color:#a5dee5;
+}
+QMenu::item::selected{
+    background-color:#fae3d9;
+}
